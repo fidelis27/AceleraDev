@@ -1,5 +1,5 @@
 # Desafio AceleraDev
-## Codenation - React - Valinhos
+## Codenation - React - Online
 
 ### Resumo
 Este repositório é referente ao código utilizado para resolver o desafio Acelera Dev.
@@ -8,7 +8,7 @@ A linguagem utilizada é javascript, com uso framework React.
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Desafio
-> Escrever programa, em qualquer linguagem de programação, que faça uma requisição HTTP para a url 'https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=SEU_TOKEN'. O resultado da requisição vai ser um JSON conforme o exemplo:
+> Escrever programa, em qualquer linguagem de programação, que faça uma requisição HTTP para a url 'https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=SEU_TOKEN'. A requisição vai ser um JSON conforme o exemplo, que retornará um score:
 
 ```
 {
@@ -35,3 +35,6 @@ A linguagem utilizada é javascript, com uso framework React.
  Ao clicar em Decifrar o campo texto decifrado aparecerá com o texto decodicado.
  Ao clicar em Hash é gerado hash do campo decifrado.
  Ao clicar em Enviar o dados são enviado para Codenation para avaliação e retorna uma nota (Score) exibido no final.
+
+ ### Tela aplicação
+ ![acelera dev](https://user-images.githubusercontent.com/45233696/77694818-77d6f400-6f89-11ea-9bd3-9728512e6dd2.png)
