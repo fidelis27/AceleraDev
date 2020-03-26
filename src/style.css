@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #999;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1 {
+  margin-top: 40px;
+  color: #fff;
+  background: #7159c1;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+  max-width: 80%;
+}
+
+form label {
+  font-size: 18px;
+  height: 32px;
+  color:rgb(17, 17, 17);
+}
+
+form .token { 
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  font-size: 18px;
+  height: 32px;
+  width: auto; 
+  color: #fff;
+  background: #7159c1;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;  
+  padding: 5px;
+  border: 0;
+}
+
+.container input{
+  border-radius: 5px;
+  line-height: 32px;
+  font-size: 18px;
+  width: 100%;  
+  background-color: #fff;
+  padding-left: 5px;
+  
+}
+
+.group {
+  min-width: 50%;
+  max-width: 80%;
+  border-color: grey; 
+  margin-top: 10px;
+  padding: 1%;
+  border-radius: 5px;
+  background-color: white;
+
+}
+
+.group h2{
+  color: #7159c1;
+
+}
+
+span {
+  font-size: 18px;
+  height: 32px;
+
+}
+
+.score{
+  line-height: 32px;
+  font-size: 18px;
+  background: #8978be;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+}
+
+.score span {
+  padding: 10px;
+}
